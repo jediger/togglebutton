@@ -62,7 +62,7 @@
     bind_body_close: function(){
       var that = this;
 
-      $('body').on('click.toggelbutton', function(){
+      $('body').on('click.togglebutton', function(){
         that.close(); 
       });        
     },
